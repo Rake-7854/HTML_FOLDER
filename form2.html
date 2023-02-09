@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(90deg, blue,yellow,blue);
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid black;
+            width: 250px;
+        }
+        input:hover{
+            border-bottom: 2px solid green;
+        }
+        textarea{
+            border:none;
+            border-bottom: 1px solid black;
+            width: 530px;
+        }
+        #id1{
+            height: 320px;
+            width: 600px;
+            margin:auto;
+            margin-top: 50px;
+            background-color: white;
+            padding: 30px
+        }
+        h1{
+            
+            color: rgba(50, 18, 167, 0.4);
+            margin-left: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td{
+            padding: 8px;
+        }
+        button{
+            border: none;
+            width: 100px;
+            height: 30px;
+            background: linear-gradient(60deg,blue,cyan,green);
+        }
+        label{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="id1">
+    <h1>Responsive contact us Form</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>First Name: </td>
+            </tr>
+            <tr>
+                <td><input type="text" id="d1" placeholder="First Name"></td>
+                <td><input type="text" id="d1" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="d1" placeholder="Email Address"></td>
+                <td><input type="text" id="d1" placeholder="Website Name"></td>
+            </tr>
+            <tr>
+               <td colspan="3"><textarea name="" id="" cols="30" rows="3" placeholder="write your message"></textarea></td>
+            </tr>
+            <tr>
+                <td><button>SUBMIT</button></td>
+            </tr>
+
+        </table>
+    </form>
+    </div>
+</body>
+</html>
